@@ -11,3 +11,8 @@ else:
 print('num1 is 5') if num1 == 5 else print('something else')
 
 #forloop
+for number in range(5): #using rangefunction
+    print(number)
+
+for letter in ['a','b','c']:
+    print(letter.upper()) #uppercase function
